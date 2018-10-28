@@ -7,9 +7,26 @@ Version:  1.0
 
 ====================*/
 /* 0. Vars
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Kirang Haerang', cursive;
 *************************************/
 /* 1. General Changes
 *************************************/
 body {
   background-image: url(../img/bg.jpg);
   background-size: cover; }
+
+.info h3,
+.info h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.8rem; }
+
+/* Media Queries
+*************************************/
+@media (max-width: 767px) {
+  #logo img {
+    width: 40%; }
+  .info h3,
+  .info h5 {
+    font-size: 1.6rem; } }
