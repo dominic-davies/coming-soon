@@ -17,10 +17,21 @@ body {
   background-image: url(../img/bg.jpg);
   background-size: cover; }
 
+/* 2. Info
+*************************************/
 .info h3,
 .info h5 {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.8rem; }
+
+/* 3. Counter
+*************************************/
+#count .countdown {
+  background: #00000038;
+  border: 1px solid #000;
+  padding: 10%;
+  font-family: 'Kirang Haerang', cursive;
+  font-size: 2.3rem; }
 
 /* Media Queries
 *************************************/
