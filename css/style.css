@@ -40,4 +40,6 @@ body {
     width: 40%; }
   .info h3,
   .info h5 {
-    font-size: 1.6rem; } }
+    font-size: 1.6rem; }
+  #count .countdown {
+    font-size: 1.4rem; } }
