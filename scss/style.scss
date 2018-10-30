@@ -16,7 +16,8 @@ font-family: 'Kirang Haerang', cursive;
 /* 1. General Changes
 *************************************/
 body {
-  background-image: url(../img/bg.jpg);
+  height: 100%;
+  background: url(../img/bg.jpg) center center;
   background-size: cover;
 }
 
@@ -47,8 +48,8 @@ body {
 #social ul li a {
   color: #fff;
   transition: all 0.7s ease-in-out;
-  &:hover{
-    color: darken($color:#ffc107, $amount: 5%);
+  &:hover {
+    color: darken($color: #ffc107, $amount: 5%);
     font-size: 1.8rem;
   }
 }
@@ -71,8 +72,8 @@ body {
   #count .countdown {
     font-size: 1.4rem;
   }
-  #social ul li a{
-    font-size:10px;
+  #social ul li a {
+    font-size: 10px;
     margin: 10px;
   }
 }
