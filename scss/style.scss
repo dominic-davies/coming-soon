@@ -42,6 +42,17 @@ body {
   font-size: 2.3rem;
 }
 
+/* 4. Contact
+*************************************/
+#social ul li a {
+  color: #fff;
+  transition: all 0.7s ease-in-out;
+  &:hover{
+    color: darken($color:#ffc107, $amount: 5%);
+    font-size: 1.8rem;
+  }
+}
+
 /* Media Queries
 *************************************/
 @media (max-width: 767px) {
@@ -59,5 +70,9 @@ body {
 
   #count .countdown {
     font-size: 1.4rem;
+  }
+  #social ul li a{
+    font-size:10px;
+    margin: 10px;
   }
 }
